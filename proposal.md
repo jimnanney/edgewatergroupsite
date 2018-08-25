@@ -3,7 +3,7 @@ layout: page
 ---
 
 <div class="col-md-5 col-sm-5 animated hiding pull-right spaced" data-animation="fadeInRight" data-delay="500">
-  <img class="img-responsive" src="./assets/img/dc.jpg" alt="placeholder" />
+  <img class="img-responsive" src="assets/img/dc.jpg" alt="placeholder" />
 </div>
 
 ### Proposal Services
