@@ -1,0 +1,81 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <!--[if IE]><meta http-equiv="X-UA-Compatible" content="IE=edge"><![endif]-->
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0" />
+  <title>The Edgewater Group</title>
+  <meta name="description" content="The Edgewater Group - Acquisition, Capture and Proposal Services for Federal space">
+  <meta name="keywords" content="government contracts, acquisition, capture services, proposal services, proposals,">
+  <meta name="author" content="Jim Nanney">
+
+  <link rel="apple-touch-icon" sizes="57x57" href="/assets/ico/apple-icon-57x57.png">
+  <link rel="apple-touch-icon" sizes="60x60" href="/assets/ico/apple-icon-60x60.png">
+  <link rel="apple-touch-icon" sizes="72x72" href="/assets/ico/apple-icon-72x72.png">
+  <link rel="apple-touch-icon" sizes="76x76" href="/assets/ico/apple-icon-76x76.png">
+  <link rel="apple-touch-icon" sizes="114x114" href="/assets/ico/apple-icon-114x114.png">
+  <link rel="apple-touch-icon" sizes="120x120" href="/assets/ico/apple-icon-120x120.png">
+  <link rel="apple-touch-icon" sizes="144x144" href="/assets/ico/apple-icon-144x144.png">
+  <link rel="apple-touch-icon" sizes="152x152" href="/assets/ico/apple-icon-152x152.png">
+  <link rel="apple-touch-icon" sizes="180x180" href="/assets/ico/apple-icon-180x180.png">
+  <link rel="icon" type="image/png" sizes="192x192"  href="/assets/ico/android-icon-192x192.png">
+  <link rel="icon" type="image/png" sizes="32x32" href="/assets/ico/favicon-32x32.png">
+  <link rel="icon" type="image/png" sizes="96x96" href="/assets/ico/favicon-96x96.png">
+  <link rel="icon" type="image/png" sizes="16x16" href="/assets/ico/favicon-16x16.png">
+  <link rel="manifest" href="/asssts/ico/manifest.json">
+  <meta name="msapplication-TileColor" content="#ffffff">
+  <meta name="msapplication-TileImage" content="/assets/ico/ms-icon-144x144.png">
+  <meta name="theme-color" content="#ffffff">
+
+  <link href='https://fonts.googleapis.com/css?family=Ubuntu:700' rel='stylesheet' type='text/css'>
+  <link href='https://fonts.googleapis.com/css?family=Roboto:100,300,700' rel='stylesheet' type='text/css'>
+
+  <link rel="stylesheet" href="assets/css/bootstrap.min.css" type="text/css" media="all" />
+  <link rel="stylesheet" href="assets/css/animate.css" type="text/css" media="all" />
+  <link rel="stylesheet" href="assets/css/font-awesome.min.css" type="text/css" media="all" />
+  <link rel="stylesheet" href="assets/css/font-lineicons.css" type="text/css" media="all" />
+  <link rel="stylesheet" href="assets/css/jquery.fancybox.css" type="text/css" media="all" />
+  <link rel="stylesheet" href="assets/css/style-2018.css" id="mainstyle" type="text/css" media="all" />
+  <link rel="stylesheet" href="assets/css/custom.css" id="custom" type="text/css" media="all" />
+  {% for css_name in page.extra_css %}<link rel="stylesheet" href="/assets/css/{{ css_name }}">{% endfor %}
+
+  <!--[if lt IE 9]>
+  <script src="assets/js/html5.js"></script>
+  <script src="assets/js/respond.min.js"></script>
+  <![endif]-->
+</head>
+
+<body id="index">
+  <header id="mobileheader" class="navigation-bar-header light visible-xs"></header>
+  <header class="navigation-bar-header-spacer visible-xs"></header>
+
+  {{ content }}
+
+
+  <footer id="footer">
+    <section class="dark center">
+      <hr>
+      <div class="container">
+          <p>&copy; {{ site.time | date: '%Y' }} - The Edgewater Group</p>
+      </div>
+    </section>
+  </footer>
+
+  <div class="back-to-top"><i class="fa fa-angle-up fa-3x"></i></div>
+
+  <!--[if lt IE 9]>
+          <script type="text/javascript" src="assets/js/jquery-1.11.0.min.js?ver=1"></script>
+      <![endif]-->
+  <!--[if (gte IE 9) | (!IE)]><!-->
+          <script type="text/javascript" src="assets/js/jquery-2.1.0.min.js?ver=1"></script>
+      <!--<![endif]-->
+  <script type="text/javascript" src="assets/js/bootstrap.min.js"></script>
+  <script type="text/javascript" src="assets/js/jquery.appear.js"></script>
+  <script type="text/javascript" src="assets/js/waypoints.min.js"></script>
+  <script type="text/javascript" src="assets/js/waypoints-sticky.min.js"></script>
+  <script type="text/javascript" src="assets/js/jquery.fancybox.js"></script>
+  <script type="text/javascript" src="assets/js/scripts.js"></script>
+  {% for js_name in page.extra_js %}<script type="text/javascript" src="{{ js_name }}"></script>{% endfor %}
+
+</body>
+</html>
