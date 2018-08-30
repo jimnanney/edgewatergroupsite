@@ -690,6 +690,7 @@ label.error { display: block; }
 
 /* Mobile device */
 @media (max-width: 480px) {
+  #hero, #stat, #newsletter, #register { background-attachment: scroll; }
   #hero hr { width: 70%; display: block; margin-top: 5px; margin-bottom: 5px; }
   #hero .hero-small span { margin: 0 !important; }
   .navigation-social li a { padding-left: 12px; padding-right: 12px; }
@@ -712,6 +713,7 @@ label.error { display: block; }
 }
 
 @media (max-width: 767px) {
+  #hero, #stat, #newsletter, #register { background-attachment: scroll; }
   .pricing-col { width: 100% !important; }
   .pricing-col-featured { top: 0; }
   .navigation-bar li a, .navigation-txt { text-transform: uppercase; }
@@ -719,6 +721,7 @@ label.error { display: block; }
 }
 
 @media (max-width: 767px) {
+  #hero, #stat, #newsletter, #register { background-attachment: scroll; }
   #hero .hero-small span {
   font-size:25px;
   display: inline-block;
@@ -787,11 +790,25 @@ label.error { display: block; }
 
 /* Tablet device */
 @media (max-width: 991px) and (min-width: 768px) {
+  #hero, #stat, #newsletter, #register { background-attachment: scroll; }
   .nav-tabs-default .tab-pane .nav-tabs > li > a { padding-left: 20px; padding-right: 20px; }
   .nav-tabs-default .tab-pane .nav-tabs.nav-justified > li > a { padding-left: 5px; padding-right: 5px; }
 
   #hero .hero-big { font-size: 90px; }
   .navigation-bar-header .navigation-bar > li a { padding-left: 5px; padding-right: 5px; font-size: 16px; }
+}
+
+@media only screen
+  and (min-device-width: 1024px)
+  and (max-device-width: 1366px)
+  and (-webkit-min-device-pixel-ratio: 2) {
+    #hero, #stat, #newsletter, #register { background-attachment: scroll; }
+    .nav-tabs-default .tab-pane .nav-tabs > li > a { padding-left: 20px; padding-right: 20px; }
+    .nav-tabs-default .tab-pane .nav-tabs.nav-justified > li > a { padding-left: 5px; padding-right: 5px; }
+
+    #hero .hero-big { font-size: 90px; }
+    .navigation-bar-header .navigation-bar > li a { padding-left: 5px; padding-right: 5px; font-size: 16px; }
+    
 }
 
 /* Desktop small screen */
