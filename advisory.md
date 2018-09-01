@@ -2,7 +2,7 @@
 layout: page
 ---
 
-### Because Experience Matters
+### Experience at the Edge 
 
 <div class="col-md-5 col-sm-5 animated hiding pull-right spaced" data-animation="fadeInRight" data-delay="500">
   <img class="img-responsive" src="assets/img/about-placeholder-starbucks.jpg" alt="starbuck" />
@@ -10,7 +10,7 @@ layout: page
 
 The Government depends on the private sector for top-quality products, services, and solutions to meet their critical missions. The Edgewater Group helps the private sector effectively and efficiently deliver solutions to the Department of Homeland Security and other Federal agencies via the Government procurement process.
 
-We can help you at any stage of your organization's development:
+The Edgewater Group is available to assist Government, Small and Minority-Owned Business when needed.
 
 
 ##### New to Agency/Mission Focus
