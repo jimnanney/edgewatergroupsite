@@ -1,6 +1,6 @@
-# The Edgewater Group
+# The Edgewater Group DC
 
-This repository holds [The Edgewater Group](http://theedgewater.com), a site built on [GitHub Pages](https://pages.github.com/).
+This repository holds [The Edgewater Group, LLC ](http://edgewatergroupdc.com), a site built on [GitHub Pages](https://pages.github.com/).
 
 ## Running Locally for Development
 
