@@ -22,19 +22,19 @@
   <link rel="icon" type="image/png" sizes="32x32" href="assets/ico/favicon-32x32.png">
   <link rel="icon" type="image/png" sizes="96x96" href="assets/ico/favicon-96x96.png">
   <link rel="icon" type="image/png" sizes="16x16" href="assets/ico/favicon-16x16.png">
-  <link rel="manifest" href="/asssts/ico/manifest.json">
+  <link rel="manifest" href="/assets/ico/manifest.json">
   <meta name="msapplication-TileColor" content="#ffffff">
   <meta name="msapplication-TileImage" content="assets/ico/ms-icon-144x144.png">
   <meta name="theme-color" content="#ffffff">
 
   <link href='https://fonts.googleapis.com/css?family=Ubuntu:700' rel='stylesheet' type='text/css'>
+  <link href='https://fonts.googleapis.com/css?family=Lato:700' rel='stylesheet' type='text/css'>
   <link href='https://fonts.googleapis.com/css?family=Roboto:100,300,700' rel='stylesheet' type='text/css'>
 
   <link rel="stylesheet" href="assets/css/bootstrap.min.css" type="text/css" media="all" />
   <link rel="stylesheet" href="assets/css/animate.css" type="text/css" media="all" />
   <link rel="stylesheet" href="assets/css/font-awesome.min.css" type="text/css" media="all" />
   <link rel="stylesheet" href="assets/css/font-lineicons.css" type="text/css" media="all" />
-  <link rel="stylesheet" href="assets/css/jquery.fancybox.css" type="text/css" media="all" />
   <link rel="stylesheet" href="assets/css/style-2018.css" id="mainstyle" type="text/css" media="all" />
   <link rel="stylesheet" href="assets/css/custom.css" id="custom" type="text/css" media="all" />
   {% for css_name in page.extra_css %}<link rel="stylesheet" href="assets/css/{{ css_name }}">{% endfor %}
@@ -54,14 +54,14 @@
 
   <footer id="footer">
     <section class="dark center">
+      <a href="/">
+        <div class="img-wrap">
+          <img src="assets/img/logo_footer.png">
+        </div>
+      </a>
       <hr>
-      <div class="container">
-          <p>&copy; {{ site.time | date: '%Y' }} - The Edgewater Group</p>
-      </div>
     </section>
   </footer>
-
-  <div class="back-to-top"><i class="fa fa-angle-up fa-3x"></i></div>
 
   <!--[if lt IE 9]>
           <script type="text/javascript" src="assets/js/jquery-1.11.0.min.js?ver=1"></script>
@@ -73,7 +73,6 @@
   <script type="text/javascript" src="assets/js/jquery.appear.js"></script>
   <script type="text/javascript" src="assets/js/waypoints.min.js"></script>
   <script type="text/javascript" src="assets/js/waypoints-sticky.min.js"></script>
-  <script type="text/javascript" src="assets/js/jquery.fancybox.js"></script>
   <script type="text/javascript" src="assets/js/scripts.js"></script>
   {% for js_name in page.extra_js %}<script type="text/javascript" src="{{ js_name }}"></script>{% endfor %}
 
