@@ -92,7 +92,6 @@
       stuckClass: 'sticky'
     });
 
-    $('.fancybox').fancybox();
 
   });
 
