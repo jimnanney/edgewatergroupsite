@@ -184,7 +184,6 @@ a:hover, a:active, a:focus { color: #0084d2; text-decoration: underline; outline
 }
 
 .content-wrapper {
-  width: 1060px; 
   margin: 0 auto;
 }
 .icon-container svg {
@@ -262,7 +261,8 @@ hr {
   top: 0;
   left: 0;
   right: 0;
-  height: 100vh;
+  bottom: env(safe-area-inset-bottom, 0.5vh);
+  height: 100%;
   padding: 150px 0;
   -webkit-background-size: cover;
   -moz-background-size: cover;
@@ -318,16 +318,16 @@ hr {
 
 /* Mobile device */
 @media (max-width: 480px) {
+  .content-wrapper { width: 420px; }
 }
 
 @media (max-width: 767px) {
-}
-
-@media (max-width: 767px) {
+  .content-wrapper { width: 620px; }
 }
 
 /* Tablet device */
 @media (max-width: 991px) and (min-width: 768px) {
+  .content-wrapper { width: 880px; }
 }
 
 @media only screen
@@ -338,8 +338,10 @@ hr {
 
 /* Desktop small screen */
 @media (min-width: 992px) {
+  .content-wrapper { width: 880px; }
 }
 
 /* Desktop large screen */
 @media (min-width: 1200px) {
+  .content-wrapper { width: 1060px; }
 }
