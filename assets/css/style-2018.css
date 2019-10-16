@@ -403,6 +403,11 @@ hr {
   }
 }
 
+@media (max-width:800px) and (orientation: landscape) {
+  .logo-header { height: 15vh; }
+}
+
+
 @media (max-width: 480px) {
   .menu-item:first-child { display: none }
   .menu-item { font-size: 12px; }
